@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import {useNavigate} from 'react-router-dom'
 import axios from "axios"
-import Navbar from "../components/Navbar"
+//import Navbar from "../components/Navbar"
 
 function AddBeerPage() {
   const [name, setName] = useState("");
@@ -29,8 +29,7 @@ function AddBeerPage() {
 
   return (
     <div className="AddBeerPage">
-    <Navbar/>
-     <form onSubmit={handleSubmit}>
+   <form onSubmit={handleSubmit}>
         <label>
           Name
           <input 

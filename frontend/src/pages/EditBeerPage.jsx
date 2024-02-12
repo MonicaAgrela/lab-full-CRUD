@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
-import Navbar from "./components/Navbar";
+//import Navbar from "../components/Navbar";
 
 function EditBeerPage() {
   const [name, setName] = useState("");
@@ -63,7 +63,7 @@ function EditBeerPage() {
 
   return (
     <div>
-     <Navbar/>
+     
       {name !== "" && (
         <form onSubmit={handleSubmit} className="add-beer-form">
           <img src={imageLink} alt="" width="50px" />

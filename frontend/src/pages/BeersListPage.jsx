@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import Navbar from "./components/Navbar";
+//import Navbar from "../components/Navbar";
 
 function BeersListPage() {
   const [beers, setBeers] = useState(null);
@@ -32,7 +32,7 @@ function BeersListPage() {
 
   return (
     <div>
-     <Navbar/>
+     
       <label>
         Search{" "}
         <input
