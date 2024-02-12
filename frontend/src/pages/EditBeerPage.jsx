@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
-//import Navbar from "../components/Navbar";
 
 function EditBeerPage() {
   const [name, setName] = useState("");
@@ -11,7 +10,7 @@ function EditBeerPage() {
   const [brewersTips, setBrewersTips] = useState("");
   const [attenuationLevel, setAttenuationLevel] = useState(0);
   const [contributedBy, setContributedBy] = useState("");
-  const [imageLink, setImageLink] = useState("");
+  const [imageURL, setImageURL] = useState("");
 
   const { beerID } = useParams();
 
@@ -29,7 +28,7 @@ function EditBeerPage() {
         setBrewersTips(response.data.brewers_tips);
         setAttenuationLevel(response.data.attenuation_level);
         setContributedBy(response.data.contributed_by);
-        setImageLink(response.data.image_url);
+        setImageURL(response.data.image_url);
       })
       .catch((err) => {
         console.log(err);
@@ -40,6 +39,7 @@ function EditBeerPage() {
     e.preventDefault();
 
     const editedBeer = {
+      imageURL: imageURL,
       name: name,
       tagline: tagline,
       description: description,
@@ -47,13 +47,11 @@ function EditBeerPage() {
       brewers_tips: brewersTips,
       attenuation_level: attenuationLevel,
       contributed_by: contributedBy,
-      image_url: imageLink,
     };
 
     axios
       .put(`http://localhost:5005/beers/${beerID}`, editedBeer)
       .then((result) => {
-        // console.log(result);
         navigate(`/beers/${result.data.id}`);
       })
       .catch((err) => {
@@ -62,12 +60,21 @@ function EditBeerPage() {
   };
 
   return (
-    <div>
-     
+    <div className="editBeerPage">
       {name !== "" && (
-        <form onSubmit={handleSubmit} className="add-beer-form">
-          <img src={imageLink} alt="" width="50px" />
-          <label htmlFor="" className="add-beer-label">
+        <form onSubmit={handleSubmit}>
+          <label>
+            Image
+            <input
+              type="text"
+              value={imageURL}
+              onChange={(e) => {
+                setImageURL(e.target.value);
+              }}
+              required
+            />
+          </label>
+          <label>
             Name
             <input
               type="text"
@@ -78,7 +85,7 @@ function EditBeerPage() {
               required
             />
           </label>
-          <label htmlFor="" className="add-beer-label">
+          <label>
             Tagline
             <input
               type="text"
@@ -89,7 +96,7 @@ function EditBeerPage() {
               required
             />
           </label>
-          <label htmlFor="" className="add-beer-label">
+          <label>
             Description
             <textarea
               type="text"
@@ -100,7 +107,7 @@ function EditBeerPage() {
               required
             />
           </label>
-          <label htmlFor="" className="add-beer-label">
+          <label>
             First Brewed
             <input
               type="text"
@@ -111,7 +118,7 @@ function EditBeerPage() {
               required
             />
           </label>
-          <label htmlFor="" className="add-beer-label">
+          <label>
             Brewer's Tips
             <input
               type="text"
@@ -122,7 +129,7 @@ function EditBeerPage() {
               required
             />
           </label>
-          <label htmlFor="" className="add-beer-label">
+          <label>
             Attenuation Level
             <input
               type="number"
@@ -133,7 +140,7 @@ function EditBeerPage() {
               required
             />
           </label>
-          <label htmlFor="" className="add-beer-label">
+          <label>
             Contributed By
             <input
               type="text"

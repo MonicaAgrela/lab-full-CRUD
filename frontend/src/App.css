@@ -40,3 +40,51 @@
 .read-the-docs {
   color: #888;
 }
+
+.AddBeerPage label input {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.AddBeerPage label {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  margin: 20px;
+}
+
+.AddBeerPage {
+  border: 1px solid lightgrey;
+  font-weight: bold;
+  width: 300px;
+}
+
+.editBeerPage label input {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.editBeerPage label {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  margin: 20px;
+}
+
+.editBeerPage {
+  border: 1px solid lightgrey;
+  font-weight: bold;
+  width: 300px;
+}
+
+.imgBeer {
+  width: 40px;
+}

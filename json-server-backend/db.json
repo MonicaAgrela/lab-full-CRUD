@@ -1,32 +1,17 @@
 {
   "beers": [
     {
-      "image_url": "https://images.punkapi.com/v2/keg.png",
-      "id": 1,
-      "name": "Buzz",
-      "tagline": "A Real Bitter Experience.",
-      "first_brewed": "09/2007",
-      "description": "A light, crisp and bitter IPA brewed with English and American hops. A small batch brewed only once.",
-      "attenuation_level": 75,
-      "brewers_tips": "The earthy and floral aromas from the hops can be overpowering. Drop a little Cascade in at the end of the boil to lift the profile with a bit of citrus.",
-      "contributed_by": "Sam Mason <samjbmason>",
-      "expireAt": "2024-02-06T07:00:33.230Z",
-      "__v": 0
-  },
-  {
-      "image_url": "https://images.punkapi.com/v2/2.png",
-      "id": 2,
       "name": "Trashy Blonde",
       "tagline": "You Know You Shouldn't",
-      "first_brewed": "04/2008",
       "description": "A titillating, neurotic, peroxide punk of a Pale Ale. Combining attitude, style, substance, and a little bit of low self esteem for good measure; what would your mother say? The seductive lure of the sassy passion fruit hop proves too much to resist. All that is even before we get onto the fact that there are no additives, preservatives, pasteurization or strings attached. All wrapped up with the customary BrewDog bite and imaginative twist.",
-      "attenuation_level": 76,
+      "first_brewed": "04/2008",
       "brewers_tips": "Be careful not to collect too much wort from the mash. Once the sugars are all washed out there are some very unpleasant grainy tasting compounds that can be extracted into the wort.",
+      "attenuation_level": 76,
       "contributed_by": "Sam Mason <samjbmason>",
-      "expireAt": "2024-02-06T07:00:33.232Z",
-      "__v": 0
-  },
-  {
+      "image_url": "https://images.punkapi.com/v2/2.png",
+      "id": 2
+    },
+    {
       "image_url": "https://images.punkapi.com/v2/keg.png",
       "id": 3,
       "name": "Berliner Weisse With Yuzu - B-Sides",
@@ -38,8 +23,8 @@
       "contributed_by": "Sam Mason <samjbmason>",
       "expireAt": "2024-02-06T07:00:33.232Z",
       "__v": 0
-  },
-  {
+    },
+    {
       "image_url": "https://images.punkapi.com/v2/4.png",
       "id": 4,
       "name": "Pilsen Lager",
@@ -51,8 +36,8 @@
       "contributed_by": "Ali Skinner <AliSkinner>",
       "expireAt": "2024-02-06T07:00:33.232Z",
       "__v": 0
-  },
-  {
+    },
+    {
       "image_url": "https://images.punkapi.com/v2/5.png",
       "id": 5,
       "name": "Avery Brown Dredge",
@@ -64,8 +49,8 @@
       "contributed_by": "Sam Mason <samjbmason>",
       "expireAt": "2024-02-06T07:00:33.233Z",
       "__v": 0
-  },
-  {
+    },
+    {
       "image_url": "https://images.punkapi.com/v2/6.png",
       "id": 6,
       "name": "Electric India",
@@ -77,8 +62,8 @@
       "contributed_by": "Sam Mason <samjbmason>",
       "expireAt": "2024-02-06T07:00:33.233Z",
       "__v": 0
-  },
-  {
+    },
+    {
       "image_url": "https://images.punkapi.com/v2/7.png",
       "id": 7,
       "name": "AB:12",
@@ -90,8 +75,8 @@
       "contributed_by": "Sam Mason <samjbmason>",
       "expireAt": "2024-02-06T07:00:33.234Z",
       "__v": 0
-  },
-  {
+    },
+    {
       "image_url": "https://images.punkapi.com/v2/8.png",
       "id": 8,
       "name": "Fake Lager",
@@ -103,8 +88,8 @@
       "contributed_by": "Sam Mason <samjbmason>",
       "expireAt": "2024-02-06T07:00:33.234Z",
       "__v": 0
-  },
-  {
+    },
+    {
       "image_url": "https://images.punkapi.com/v2/9.png",
       "id": 9,
       "name": "AB:07",
@@ -116,8 +101,8 @@
       "contributed_by": "Sam Mason <samjbmason>",
       "expireAt": "2024-02-06T07:00:33.234Z",
       "__v": 0
-  },
-  {
+    },
+    {
       "image_url": "https://images.punkapi.com/v2/10.png",
       "id": 10,
       "name": "Bramling X",
@@ -129,8 +114,8 @@
       "contributed_by": "Sam Mason <samjbmason>",
       "expireAt": "2024-02-06T07:00:33.235Z",
       "__v": 0
-  },
-  {
+    },
+    {
       "image_url": "https://images.punkapi.com/v2/keg.png",
       "id": 11,
       "name": "Misspent Youth",
@@ -142,8 +127,8 @@
       "contributed_by": "Sam Mason <samjbmason>",
       "expireAt": "2024-02-06T07:00:33.235Z",
       "__v": 0
-  },
-  {
+    },
+    {
       "image_url": "https://images.punkapi.com/v2/12.png",
       "id": 12,
       "name": "Arcade Nation",
@@ -155,8 +140,8 @@
       "contributed_by": "Sam Mason <samjbmason>",
       "expireAt": "2024-02-06T07:00:33.235Z",
       "__v": 0
-  },
-  {
+    },
+    {
       "image_url": "https://images.punkapi.com/v2/13.png",
       "id": 13,
       "name": "Movember",
@@ -168,8 +153,8 @@
       "contributed_by": "Sam Mason <samjbmason>",
       "expireAt": "2024-02-06T07:00:33.235Z",
       "__v": 0
-  },
-  {
+    },
+    {
       "image_url": "https://images.punkapi.com/v2/14.png",
       "id": 14,
       "name": "Alpha Dog",
@@ -181,8 +166,8 @@
       "contributed_by": "Sam Mason <samjbmason>",
       "expireAt": "2024-02-06T07:00:33.235Z",
       "__v": 0
-  },
-  {
+    },
+    {
       "image_url": "https://images.punkapi.com/v2/15.png",
       "id": 15,
       "name": "Mixtape 8",
@@ -194,8 +179,8 @@
       "contributed_by": "Sam Mason <samjbmason>",
       "expireAt": "2024-02-06T07:00:33.236Z",
       "__v": 0
-  },
-  {
+    },
+    {
       "image_url": "https://images.punkapi.com/v2/16.png",
       "id": 16,
       "name": "Libertine Porter",
@@ -207,8 +192,8 @@
       "contributed_by": "Sam Mason <samjbmason>",
       "expireAt": "2024-02-06T07:00:33.236Z",
       "__v": 0
-  },
-  {
+    },
+    {
       "image_url": "https://images.punkapi.com/v2/17.png",
       "id": 17,
       "name": "AB:06",
@@ -220,8 +205,8 @@
       "contributed_by": "Sam Mason <samjbmason>",
       "expireAt": "2024-02-06T07:00:33.236Z",
       "__v": 0
-  },
-  {
+    },
+    {
       "image_url": "https://images.punkapi.com/v2/18.png",
       "id": 18,
       "name": "Russian Doll – India Pale Ale",
@@ -233,8 +218,8 @@
       "contributed_by": "Sam Mason <samjbmason>",
       "expireAt": "2024-02-06T07:00:33.236Z",
       "__v": 0
-  },
-  {
+    },
+    {
       "image_url": "https://images.punkapi.com/v2/19.png",
       "id": 19,
       "name": "Hello My Name Is Mette-Marit",
@@ -246,8 +231,8 @@
       "contributed_by": "Sam Mason <samjbmason>",
       "expireAt": "2024-02-06T07:00:33.237Z",
       "__v": 0
-  },
-  {
+    },
+    {
       "image_url": "https://images.punkapi.com/v2/keg.png",
       "id": 20,
       "name": "Rabiator",
@@ -259,8 +244,8 @@
       "contributed_by": "Sam Mason <samjbmason>",
       "expireAt": "2024-02-06T07:00:33.237Z",
       "__v": 0
-  },
-  {
+    },
+    {
       "image_url": "https://images.punkapi.com/v2/keg.png",
       "id": 21,
       "name": "Vice Bier",
@@ -272,8 +257,8 @@
       "contributed_by": "Sam Mason <samjbmason>",
       "expireAt": "2024-02-06T07:00:33.237Z",
       "__v": 0
-  },
-  {
+    },
+    {
       "image_url": "https://images.punkapi.com/v2/22.png",
       "id": 22,
       "name": "Devine Rebel (w/ Mikkeller)",
@@ -285,6 +270,28 @@
       "contributed_by": "Sam Mason <samjbmason>",
       "expireAt": "2024-02-06T07:00:33.238Z",
       "__v": 0
-  }
+    },
+    {
+      "image_url": "https://dfrango.net/wp-content/uploads/2020/09/superBock.jpg",
+      "name": "SuperBock",
+      "tagline": "super",
+      "description": "fresh and super",
+      "firstBrewed": "ok",
+      "brewerTip": "okok",
+      "attenuationLevel": "10",
+      "contributedBy": "SUPER ",
+      "id": 24
+    },
+    {
+      "imageURL": "https://www.mercabeer.es/926253-medium_default/super-bock-stout-33cl.jpg",
+      "name": "",
+      "tagline": "",
+      "description": "",
+      "firstBrewed": "",
+      "brewerTip": "",
+      "attenuationLevel": "",
+      "contributedBy": "",
+      "id": 25
+    }
   ]
 }
